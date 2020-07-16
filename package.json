@@ -1,0 +1,19 @@
+{
+  "name": "netstorage-node",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Mitchell Oakes <mitchell_oakes@anfcorp.com>",
+  "description": "a simple netstorage api node",
+  "license": "Abercrombie & Fitch",
+  "engines": {
+    "node": "^=12.16.1"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "~3.4.7",
+    "json-lint": "~0.1.0",
+    "netstorageapi": "1.1.5"
+  }
+}
